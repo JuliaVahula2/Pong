@@ -26,7 +26,8 @@ class Player(GameSprite):
           if key[K_S] and self.rect.y>widht-80:
                self.rect.y+=self.speed
 
-
+racket1=Player("racket.png", 50,200, 4,50,150)
+racket2=Player("racket.png", 350,200, 4,50,150)
 
 width=600
 height=600
